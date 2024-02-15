@@ -1,22 +1,22 @@
 date: 14/02/2024
 GPIO(General Purpose Input Output) :
-   >> It's generally used for readings digital signals,issuing interrupts,generating triggers for external coponents.
+   It's generally used for readings digital signals,issuing interrupts,generating triggers for external coponents.
 
 
 GPIO pin:
-     >> Generic pin whose value consists of one of two voltage settings (high or low).
-     >> Behavior can be programmed through software.
+     * Generic pin whose value consists of one of two voltage settings (high or low).
+     * Behavior can be programmed through software.
 
 
 GPIO port :
-     >> Platform-defined grouping of GPIO pins (STM32 16 pins).
+     *Platform-defined grouping of GPIO pins (STM32 16 pins).
 
 
 GPIO input mode with high impedance state :
-      -After reset MCU default GPIO pins are Input Mode
-      -Default GPIO pins will be in High Z state or Floating state
-      -Neither high state or ground state
-      -Keeping the pin in floating state lead to leakage current, more power consumption
+      *After reset MCU default GPIO pins are Input Mode
+      *Default GPIO pins will be in High Z state or Floating state
+      *Neither high state or ground state
+      *Keeping the pin in floating state lead to leakage current, more power consumption
 
 
 GPIO input mode :
