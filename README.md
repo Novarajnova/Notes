@@ -162,5 +162,53 @@ ASCII
 - Word length
 - Hardware Flow Control
   
-   
+22/02/24
   
+   Sudo minicom - s using this command 
+       open the terminal last can be used to run the complie code in stm32cubeide, that are used in same minicom command to run the code.
+
+    serial port--- Shift + A --- add one new file name ---  Shift + E --- change the hardware and software --- save as default --- then exit ---- automatically code can be complie --- output will be executed.
+
+   
+   using commands are ls /,ls/ dev , ls-l/dev
+   
+In rugged board,
+   
+      core --> Architecture (ARM)
+      |
+     SOC----> system on chip 
+      |
+     SOM----> system on module
+      |
+     SBC----> single board computer
+
+
+SOC ----> ×= 7
+A5D2X
+  
+  SOM ----> PYCORE A5D2X P2X
+  
+  SBC------> RUGGED BOARD A5D2X
+   
+  TO LEARN, 
+    
+  -Flash
+  -Ram
+  -boot/ sram 
+  
+
+Flash : 
+ 
+   in mapping , ATA base strap , U boot, Dtb, Zimage ( kernel) , RFS .
+ 
+   ATA base strap can be load a data in SRAM. 
+
+FINALLY , 
+  
+ DTB --> it can be solving a problems 
+  
+expanding, DTSC ----> Device Tree Source File
+           DTB ------> Device Tree Binary
+           RFS ------> Root file System 
+
+ RFS ___ Mount the data values in RAM... 
