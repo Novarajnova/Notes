@@ -82,5 +82,26 @@ In Memory mapping,
     APB1
     
 
+16/02/24
+   
+   GPIO PORT(GPIO×_ ODR)
+     
+   Address offset: 0×14
+   reset value : 0×0000 0000
+
+
+These bits can be read and written by software. 
+    
+ GPIO PORT ( GPIO×_ IDR)
   
+   Address offset:0× 10
+   reset value: 0× 0000 XXXX
+  
+      These bits are read only and can be accessed in word mode only. they contain the input value of the corresponding I/O port. 
+
+RCC and Clock control (RCC): 
+  
+       These are 3 types, system reset, software reset, low power management reset. 
+  
+   In given RCC register can be given value accessed by allocating bus values and address, then peripherals.
 
