@@ -105,3 +105,62 @@ RCC and Clock control (RCC):
   
    In given RCC register can be given value accessed by allocating bus values and address, then peripherals.
 
+21/02/24
+ 
+       USART 
+
+Serial communication 
+    
+   Sender--------->Reciver
+    
+    MSB- most significant bit
+    LSB- Least significant bit
+  
+In 16- bit msb, lsb can be in protocal.
+using same frequency clock registers.
+
+
+SYNCHRONOUS:
+    A clock is transmitted with data.
+ASYNCHRONOUS: 
+     A clock is not transmitted with data.
+
+Parallel Communication : 
+   
+   Reciver --------> transmitter
+   
+   in universal and Asynchronous.
+   
+ synchronous: 
+---------------
+    
+    It is a full duplex.
+
+transmitter ---------> Receiver
+
+Receiver -------------> transmitter
+
+Simplex : 
+  
+  data- transmitted only not receiver.
+  only one direction.
+
+Half Duplex: 
+   
+     only one way to at a time data can be transmitted.
+
+ Full duplex: 
+    
+     both they are at a time data can be transmitted.
+
+
+ASCII 
+  
+    Serial connection going to start bit and stop bit depend upon clock cycle.
+
+- Mode
+- Word length
+- Hardware Flow Control
+  
+   
+  
